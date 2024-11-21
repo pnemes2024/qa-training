@@ -1,0 +1,348 @@
+{
+  "id": "d1cb1ae8-1544-4a25-a664-80a4a25b1fc6",
+  "version": "2.0",
+  "name": "qa-training",
+  "url": "https://weathershopper.pythonanywhere.com",
+  "tests": [{
+    "id": "1fe71063-6d81-4869-98b2-bc2e406ccfec",
+    "name": "learn_selenium",
+    "commands": [{
+      "id": "5ae3d469-7d24-4357-8dd1-25a92ae61f16",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "950fc5bf-11e1-4d95-8229-e539bef088d4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1708x916",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6dff0f9-6cdc-47eb-bdb9-1a49ff881954",
+      "comment": "",
+      "command": "click",
+      "target": "css=.octicon",
+      "targets": [
+        ["css=.octicon", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ef4906e-b0b1-4f62-9002-362111f73d85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.octicon",
+      "targets": [
+        ["css=.octicon", "css:finder"],
+        ["xpath=//span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c3f4b6b-c7b6-411b-b995-d2c8dc3f50d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.offset-4 .btn",
+      "targets": [
+        ["css=.offset-4 .btn", "css:finder"],
+        ["xpath=//div[2]/a/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy sunscreens')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22d65936-26b6-41ab-9135-8f4f32f0265b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.octicon",
+      "targets": [
+        ["css=.octicon", "css:finder"],
+        ["xpath=//div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbd185c4-99ba-441f-b476-e2a10c0a0561",
+      "comment": "",
+      "command": "click",
+      "target": "css=.text-center:nth-child(2) > .btn",
+      "targets": [
+        ["css=.text-center:nth-child(2) > .btn", "css:finder"],
+        ["xpath=//button[@onclick=\"addToCart('Akiba Amazing SPF-50',222)\"]", "xpath:attributes"],
+        ["xpath=//div[3]/div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18cb41f9-9ccc-4ae6-a874-69fa7fa774ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(2) > .text-center:nth-child(1) > .btn",
+      "targets": [
+        ["css=.row:nth-child(2) > .text-center:nth-child(1) > .btn", "css:finder"],
+        ["xpath=//button[@onclick=\"addToCart('Vladimir Sun Expert SPF-30',160)\"]", "xpath:attributes"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68a95ccd-e7fd-49b3-b9d4-5125a3682ae1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.thin-text",
+      "targets": [
+        ["css=.thin-text", "css:finder"],
+        ["xpath=//button[@onclick='goToCart()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cart - 2 item(s)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cbbac4d-5795-4bef-a02b-32b0ded08f16",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(1)",
+      "targets": [
+        ["css=span:nth-child(1)", "css:finder"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Pay with Card')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c81b75d-bcfc-481a-ad56-f2cfe1fbb02c",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "0465b1e8-2051-4443-8aa5-c5a1e78cb3af",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e27ecc17-e513-4c29-87fa-2ceb449957d1",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "73950274-43ad-492a-8267-15a70680d4dd",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testemail"
+    }, {
+      "id": "caee390e-ff52-4724-b5d2-fe0e5474dbf8",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cfc7823-b96d-4fca-a239-ec5884287314",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "testemail@example.com"
+    }, {
+      "id": "e86bc1fa-082c-499d-9f4f-7420a75fc97d",
+      "comment": "",
+      "command": "click",
+      "target": "id=card_number",
+      "targets": [
+        ["id=card_number", "id"],
+        ["css=#card_number", "css:finder"],
+        ["xpath=//input[@id='card_number']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a7f8247-4244-45ab-a10c-9f3173da0d7c",
+      "comment": "",
+      "command": "type",
+      "target": "id=card_number",
+      "targets": [
+        ["id=card_number", "id"],
+        ["css=#card_number", "css:finder"],
+        ["xpath=//input[@id='card_number']", "xpath:attributes"],
+        ["xpath=//div/div/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "4242 4242 4242 4242"
+    }, {
+      "id": "21173934-ad47-4064-aa9d-58d589232c5b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cc-exp",
+      "targets": [
+        ["id=cc-exp", "id"],
+        ["css=#cc-exp", "css:finder"],
+        ["xpath=//input[@id='cc-exp']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39edf081-0305-4f60-b05e-76518839e293",
+      "comment": "",
+      "command": "type",
+      "target": "id=cc-exp",
+      "targets": [
+        ["id=cc-exp", "id"],
+        ["css=#cc-exp", "css:finder"],
+        ["xpath=//input[@id='cc-exp']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "12 / 22"
+    }, {
+      "id": "260f32ad-415a-4a87-9ad3-44517ee2d2a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=cc-csc",
+      "targets": [
+        ["id=cc-csc", "id"],
+        ["css=#cc-csc", "css:finder"],
+        ["xpath=//input[@id='cc-csc']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc6b7fd8-a188-4368-ab45-1450f20ba35a",
+      "comment": "",
+      "command": "type",
+      "target": "id=cc-csc",
+      "targets": [
+        ["id=cc-csc", "id"],
+        ["css=#cc-csc", "css:finder"],
+        ["xpath=//input[@id='cc-csc']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "7c124db4-7588-49ff-affd-984180df5db8",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing-zip",
+      "targets": [
+        ["id=billing-zip", "id"],
+        ["name=zip", "name"],
+        ["css=#billing-zip", "css:finder"],
+        ["xpath=//input[@id='billing-zip']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad9ac342-5120-4c8a-975d-de5d1bcb5eb7",
+      "comment": "",
+      "command": "click",
+      "target": "id=billing-zip",
+      "targets": [
+        ["id=billing-zip", "id"],
+        ["name=zip", "name"],
+        ["css=#billing-zip", "css:finder"],
+        ["xpath=//input[@id='billing-zip']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca31ac3c-2a81-49ce-99c4-520c24af0b67",
+      "comment": "",
+      "command": "type",
+      "target": "id=billing-zip",
+      "targets": [
+        ["id=billing-zip", "id"],
+        ["name=zip", "name"],
+        ["css=#billing-zip", "css:finder"],
+        ["xpath=//input[@id='billing-zip']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "56111"
+    }, {
+      "id": "f7f6a27a-7e24-4a35-a92b-2a89e0b67468",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iconTick",
+      "targets": [
+        ["css=.iconTick", "css:finder"],
+        ["xpath=//button[@id='submitButton']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94266b6b-982d-4e47-b3c6-3600f3111ca6",
+      "comment": "",
+      "command": "click",
+      "target": "id=cc-exp",
+      "targets": [
+        ["id=cc-exp", "id"],
+        ["css=#cc-exp", "css:finder"],
+        ["xpath=//input[@id='cc-exp']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66234d10-31f9-443c-aff3-6790559ea623",
+      "comment": "",
+      "command": "click",
+      "target": "css=.iconTick",
+      "targets": [
+        ["css=.iconTick", "css:finder"],
+        ["xpath=//button[@id='submitButton']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84c31a46-a446-4f6f-8b94-568d4da7aa5c",
+      "comment": "",
+      "command": "type",
+      "target": "id=cc-exp",
+      "targets": [
+        ["id=cc-exp", "id"],
+        ["css=#cc-exp", "css:finder"],
+        ["xpath=//input[@id='cc-exp']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "12 / 26"
+    }]
+  }],
+  "suites": [{
+    "id": "bf91811a-751d-4987-a85e-60c10e3a5570",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1fe71063-6d81-4869-98b2-bc2e406ccfec"]
+  }],
+  "urls": ["https://weathershopper.pythonanywhere.com/"],
+  "plugins": []
+}
