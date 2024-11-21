@@ -12,5 +12,5 @@ indicated by the output TEST SUCCEEDED!. This demonstrates a simple yet effectiv
 
 
 For the portion of the work done with the Selenium IDE and the website(https://weathershopper.pythonanywhere.com/), the tests were run with the Selenium IDE and the log showed that the tests showed all the commands worked properly and 
-yielded the result of having the payment go through correctly at the end of it. The qa-training_learn_selenium.side file shows what was saveded from the Selenium IDE.  
+yielded the result of having the payment go through correctly at the end of it. The qa-training_learn_selenium.side file shows what was saved from the Selenium IDE.  
   
