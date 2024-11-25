@@ -1,4 +1,4 @@
-### QA Training
+# QA Training
 
 Project was ETL Database Transformation, I wanted to make and validate an ETL between two SQLite databases.  
 
